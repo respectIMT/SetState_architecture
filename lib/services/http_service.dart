@@ -1,8 +1,8 @@
 // ignore_for_file: unused_local_variable, non_constant_identifier_names, body_might_complete_normally_nullable, prefer_interpolation_to_compose_strings
 import 'dart:convert';
 import 'package:http/http.dart';
-import 'package:provider_example/services/log_service.dart';
 import '../model/post_model.dart';
+import 'log_service.dart';
 
 class Network {
   static String BASE = "jsonplaceholder.typicode.com";
