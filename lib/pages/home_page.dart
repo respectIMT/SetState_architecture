@@ -1,9 +1,8 @@
 // ignore_for_file: prefer_const_constructors, unused_element, prefer_const_literals_to_create_immutables
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import '../model/post_model.dart';
-import '../services/http_service.dart';
-
+import 'package:pattern_setstate/model/post_model.dart';
+import 'package:pattern_setstate/services/http_service.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
